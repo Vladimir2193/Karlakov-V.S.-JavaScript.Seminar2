@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Задание 1
+    Создать переменные num1, num2 которые пользователь вводит с клавиатуры
+    Проверьте, что переменная num1 равна или меньше 1, а переменная num2 больше или равна 3.
+
+    Задание 2
+    Перепишите код к тернарному оператору
+
+    let test = true;
+    if (test === true) {
+    console.log('+++');
+    } else {
+    console.log('---');
+    }
+
+    Задание 3
+    В переменной day лежит какое-то число из интервала от 1 до 31. Определите в какую декаду месяца попадает это число
+    (в первую, вторую или третью).
+
+    Задание 4
+    Необходимо от пользователя получить число.
+    Необходимо вывести разряды числа, а именно: количество сотен, десятков и единиц. -->
+
+    <script>
+        // Задание 1
+
+        // let num1 = Number(prompt('Введите первое число: '));
+        // let num2 = Number(prompt('Введите второе число: '));
+        // if (num1 <= 1 && num2 >= 3) {
+        //     alert('Условие выполняется');
+        // } else {
+        //     alert('Несответствие условию');
+        // }
+
+        // Задание  2
+
+        // let test = true;
+        // console.log((test === true) ? '+++' : '---');
+
+        // Задание 3
+
+        // let day = Number(prompt('Введите число: '));
+
+        // if (day >= 1 && day <= 10) {
+        //     alert('Число попадает в первую декаду месяца')
+        // } else if (day > 10 && day <= 20) {
+        //     alert('Число попадает во вторую декаду месяца');
+        // } else if (day >= 21 && day < 31) {
+        //     alert('Число попадает в третью декаду месяца');
+        // } else {
+        //     alert('Введите корректное число');
+        // }
+
+        // Задание 4
+
+        // let userNumber = Number(prompt('Введите число: '));
+        // let unitsOfNumber = userNumber % 10;
+        // let tenOfNumber = parseInt((userNumber % 100) / 10);
+        // let hundredOfNumber = parseInt((userNumber % 1000) / 100);
+        
+        // if (userNumber < 0) {
+        //     alert('Введите положительное число');
+        // } else if (unitsOfNumber === 0) {
+        //     alert('Введенное число равно 0');
+        // } else if (tenOfNumber === 0) {
+        //     alert(`В числе ${userNumber} количество единиц: ${unitsOfNumber}`);
+        // } else if (hundredOfNumber === 0) {
+        //     alert(`В числе ${userNumber} количество десятков: ${tenOfNumber}, единиц: ${unitsOfNumber}`);
+        // } else {
+        //     alert(`В числе ${userNumber} количество сотен: ${hundredOfNumber}, десятков: ${tenOfNumber}, единиц: ${unitsOfNumber}`);
+        // }
+
+    </script>
+</body>
+
+</html>
